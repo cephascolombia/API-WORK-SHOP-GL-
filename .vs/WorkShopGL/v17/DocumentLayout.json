@@ -1,0 +1,1054 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\editclienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\editclienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\createclienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\createclienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\cliente\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\cliente\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\cliente\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\cliente\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\database\\sqlexecutornotenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\database\\sqlexecutornotenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\database\\sqlconnectionnotenantfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\database\\sqlconnectionnotenantfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\database\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\database\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\database\\itenantconnectionresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\database\\itenantconnectionresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\controllers\\maestrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\controllers\\maestrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\middlewares\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\middlewares\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\cliente\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\cliente\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\cliente\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\cliente\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\validators\\createclienterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\validators\\createclienterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\validators\\createvehiculorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\validators\\createvehiculorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\validationinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\validationinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\utilidades\\iutilidadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\utilidades\\iutilidadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\utilidades\\utilidadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\utilidades\\utilidadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\validators\\editvehiculorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\validators\\editvehiculorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\editvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\editvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\queryclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\queryclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\createvehiculorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\createvehiculorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\editvehiculorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\editvehiculorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\validators\\editclienterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\validators\\editclienterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\vehiculo\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\vehiculo\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\vehiculo\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\vehiculo\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\vehiculo\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\vehiculo\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\vehiculo\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\vehiculo\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\createvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\createvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\vehiculoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\vehiculoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\maestro\\maestroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\maestro\\maestroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\services\\maestro\\imaestroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\services\\maestro\\imaestroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\maestro\\imaestrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\maestro\\imaestrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\infrastructure\\repositories\\maestro\\maestrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:infrastructure\\repositories\\maestro\\maestrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\marcaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\marcaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\colorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\colorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\querymarcadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\querymarcadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\querypaisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\querypaisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\carroceriaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\carroceriaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\clienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\clienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\querycolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\querycolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\claseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\claseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\queryclasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\queryclasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\ciudadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\ciudadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\querycarroceriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\querycarroceriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\editclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\editclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\shared\\exeptions\\dataaccessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:shared\\exeptions\\dataaccessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\shared\\results\\dbcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:shared\\results\\dbcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\loginresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\loginresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\api\\models\\responses\\paisresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:api\\models\\responses\\paisresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|c:\\users\\ingen\\onedrive\\documentos\\cephas\\proyecto_api_workshop_gl\\workshopgl\\application\\dto\\queryvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C37B49-7476-4FE5-A336-53F0C4CDFD60}|WorkShopGL.csproj|solutionrelative:application\\dto\\queryvehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 969,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITenantConnectionResolver.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\ITenantConnectionResolver.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\ITenantConnectionResolver.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\ITenantConnectionResolver.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\ITenantConnectionResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:11:21.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CotizacionController.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\CotizacionController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CotizacionController.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\CotizacionController.cs",
+              "RelativeToolTip": "API\\Controllers\\CotizacionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:11:01.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:00:03.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Cliente\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Cliente\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Cliente\\ClienteService.cs",
+              "RelativeToolTip": "Application\\Services\\Cliente\\ClienteService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:01:01.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Cliente\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Cliente\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Cliente\\ClienteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Cliente\\ClienteRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:22:39.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:41:42.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateClienteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateClienteRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\CreateClienteRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateClienteRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\CreateClienteRequest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:22:11.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditClienteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\EditClienteRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\EditClienteRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\EditClienteRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\EditClienteRequest.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA8wBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:33:38.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-27T16:27:08.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SqlConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\SqlConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlConnectionFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\SqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:11:23.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqlExecutorNoTenant.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlExecutorNoTenant.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\SqlExecutorNoTenant.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlExecutorNoTenant.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\SqlExecutorNoTenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:11:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-27T16:25:26.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:36:00.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlConnectionNoTenantFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlConnectionNoTenantFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\SqlConnectionNoTenantFactory.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlConnectionNoTenantFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\SqlConnectionNoTenantFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:11:26.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SqlExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlExecutor.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\SqlExecutor.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Database\\SqlExecutor.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\SqlExecutor.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwHQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:19:37.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TenantMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Middlewares\\TenantMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\TenantMiddleware.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Middlewares\\TenantMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\TenantMiddleware.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T14:58:28.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MaestroController.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\MaestroController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\MaestroController.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\MaestroController.cs",
+              "RelativeToolTip": "API\\Controllers\\MaestroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:17:41.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "API\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:05:13.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Cliente\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Cliente\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Cliente\\IClienteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Cliente\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:44:49.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Cliente\\IClienteService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Cliente\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Cliente\\IClienteService.cs",
+              "RelativeToolTip": "Application\\Services\\Cliente\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:00:51.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateClienteRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\CreateClienteRequestValidator.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Validators\\CreateClienteRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\CreateClienteRequestValidator.cs",
+              "RelativeToolTip": "API\\Models\\Validators\\CreateClienteRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T20:00:43.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateVehiculoRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\CreateVehiculoRequestValidator.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Validators\\CreateVehiculoRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\CreateVehiculoRequestValidator.cs",
+              "RelativeToolTip": "API\\Models\\Validators\\CreateVehiculoRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:11:06.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ValidationInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\ValidationInstaller.cs",
+              "RelativeDocumentMoniker": "API\\ValidationInstaller.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\ValidationInstaller.cs",
+              "RelativeToolTip": "API\\ValidationInstaller.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T20:14:50.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUtilidadesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Utilidades\\IUtilidadesRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Utilidades\\IUtilidadesRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Utilidades\\IUtilidadesRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Utilidades\\IUtilidadesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:57:02.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditVehiculoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\EditVehiculoRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\EditVehiculoRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\EditVehiculoRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\EditVehiculoRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:37:27.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditVehiculoRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\EditVehiculoRequestValidator.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Validators\\EditVehiculoRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\EditVehiculoRequestValidator.cs",
+              "RelativeToolTip": "API\\Models\\Validators\\EditVehiculoRequestValidator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:19:53.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QueryClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryClienteDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryClienteDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryClienteDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:56:55.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditVehiculoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\EditVehiculoDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\EditVehiculoDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\EditVehiculoDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\EditVehiculoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:56:56.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UtilidadesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Utilidades\\UtilidadesRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Utilidades\\UtilidadesRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Utilidades\\UtilidadesRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Utilidades\\UtilidadesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T19:29:31.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditClienteRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\EditClienteRequestValidator.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Validators\\EditClienteRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Validators\\EditClienteRequestValidator.cs",
+              "RelativeToolTip": "API\\Models\\Validators\\EditClienteRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:04:11.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateVehiculoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateVehiculoRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\CreateVehiculoRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateVehiculoRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\CreateVehiculoRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T19:03:44.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IVehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Vehiculo\\IVehiculoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Vehiculo\\IVehiculoService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Vehiculo\\IVehiculoService.cs",
+              "RelativeToolTip": "Application\\Services\\Vehiculo\\IVehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:03:50.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IVehiculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Vehiculo\\IVehiculoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Vehiculo\\IVehiculoRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Vehiculo\\IVehiculoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Vehiculo\\IVehiculoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:03:02.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VehiculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Vehiculo\\VehiculoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Vehiculo\\VehiculoRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Vehiculo\\VehiculoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Vehiculo\\VehiculoRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAABQwGUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:03:00.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Vehiculo\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Vehiculo\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Vehiculo\\VehiculoService.cs",
+              "RelativeToolTip": "Application\\Services\\Vehiculo\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:03:55.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateVehiculoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\CreateVehiculoDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\CreateVehiculoDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\CreateVehiculoDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\CreateVehiculoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:54:08.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IMaestroService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Maestro\\IMaestroService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Maestro\\IMaestroService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Maestro\\IMaestroService.cs",
+              "RelativeToolTip": "Application\\Services\\Maestro\\IMaestroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:32:58.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MaestroService.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Maestro\\MaestroService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Maestro\\MaestroService.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\Services\\Maestro\\MaestroService.cs",
+              "RelativeToolTip": "Application\\Services\\Maestro\\MaestroService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:33:08.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MaestroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Maestro\\MaestroRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Maestro\\MaestroRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Maestro\\MaestroRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Maestro\\MaestroRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAABQwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:31:39.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IMaestroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Maestro\\IMaestroRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Maestro\\IMaestroRepository.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Infrastructure\\Repositories\\Maestro\\IMaestroRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Maestro\\IMaestroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:17:16.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VehiculoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\VehiculoResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\VehiculoResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\VehiculoResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\VehiculoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:05:06.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "QueryClaseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryClaseDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryClaseDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryClaseDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryClaseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:13:22.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CiudadResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\CiudadResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\CiudadResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\CiudadResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\CiudadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:28:32.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MarcaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\MarcaResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\MarcaResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\MarcaResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\MarcaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:52:30.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ColorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ColorResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\ColorResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ColorResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\ColorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:34:19.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ClaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ClaseResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\ClaseResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ClaseResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\ClaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:34:32.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CarroceriaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\CarroceriaResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\CarroceriaResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\CarroceriaResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\CarroceriaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:34:44.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "QueryMarcaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryMarcaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryMarcaDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryMarcaDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryMarcaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:52:51.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "QueryPaisDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryPaisDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryPaisDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryPaisDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryPaisDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:53:03.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "QueryColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryColorDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryColorDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryColorDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryColorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:12:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ClienteResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ClienteResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\ClienteResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\ClienteResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\ClienteResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:01:14.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "QueryCarroceriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryCarroceriaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryCarroceriaDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryCarroceriaDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryCarroceriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:12:51.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EditClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\EditClienteDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\EditClienteDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\EditClienteDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\EditClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABQwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:30:00.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:37:24.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Request\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Request\\CreateUserRequest.cs",
+              "RelativeToolTip": "API\\Models\\Request\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:37:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\CreateClienteDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\CreateClienteDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\CreateClienteDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\CreateClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:29:35.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DbCommandResult.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Shared\\Results\\DbCommandResult.cs",
+              "RelativeDocumentMoniker": "Shared\\Results\\DbCommandResult.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Shared\\Results\\DbCommandResult.cs",
+              "RelativeToolTip": "Shared\\Results\\DbCommandResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:42:58.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DataAccessException.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Shared\\Exeptions\\DataAccessException.cs",
+              "RelativeDocumentMoniker": "Shared\\Exeptions\\DataAccessException.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Shared\\Exeptions\\DataAccessException.cs",
+              "RelativeToolTip": "Shared\\Exeptions\\DataAccessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:42:25.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\LoginResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:35:24.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LoginResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\LoginResultDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\LoginResultDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\LoginResultDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\LoginResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:35:03.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "QueryVehiculoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryVehiculoDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\QueryVehiculoDTO.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\Application\\DTO\\QueryVehiculoDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\QueryVehiculoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:27:22.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PaisResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\PaisResponse.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Responses\\PaisResponse.cs",
+              "ToolTip": "C:\\Users\\ingen\\OneDrive\\Documentos\\CEPHAS\\PROYECTO_API_WORKSHOP_GL\\WorkShopGL\\API\\Models\\Responses\\PaisResponse.cs",
+              "RelativeToolTip": "API\\Models\\Responses\\PaisResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:27:34.412Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

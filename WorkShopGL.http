@@ -1,0 +1,6 @@
+@WorkShopGL_HostAddress = http://localhost:5007
+
+GET {{WorkShopGL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

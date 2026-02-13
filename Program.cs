@@ -11,11 +11,13 @@ using WorkShopGL.API;
 using WorkShopGL.API.Middlewares;
 using WorkShopGL.Application.Services.Auth;
 using WorkShopGL.Application.Services.Cliente;
+using WorkShopGL.Application.Services.Color;
 using WorkShopGL.Application.Services.Maestro;
 using WorkShopGL.Application.Services.Vehiculo;
 using WorkShopGL.Infrastructure.Auth;
 using WorkShopGL.Infrastructure.Database;
 using WorkShopGL.Infrastructure.Repositories.Cliente;
+using WorkShopGL.Infrastructure.Repositories.Color;
 using WorkShopGL.Infrastructure.Repositories.Maestro;
 using WorkShopGL.Infrastructure.Repositories.Utilidades;
 using WorkShopGL.Infrastructure.Repositories.Vehiculo;
@@ -82,6 +84,9 @@ builder.Services.AddScoped<IMaestroRepository, MaestroRepository>();
 builder.Services.AddScoped<IClienteService,ClienteService>();
 builder.Services.AddScoped<IVehiculoService,VehiculoService>();
 builder.Services.AddScoped<IMaestroService, MaestroService>();
+
+builder.Services.AddScoped<IColorRepository, ColorRepository>();
+builder.Services.AddScoped<IColorService, ColorService>();
 
 builder.Services.AddDbContext<AuthDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MasterDb")));

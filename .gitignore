@@ -1,0 +1,17 @@
+## Visual Studio Temp Files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Environment files
+.env
+appsettings.Development.json

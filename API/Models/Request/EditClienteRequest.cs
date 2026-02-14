@@ -30,7 +30,7 @@ namespace WorkShopGL.API.Models.Request
 
         [StringLength(30)]
         [JsonPropertyName("segundo_nombre")]
-        public string SegundoNombre { get; set; }
+        public string? SegundoNombre { get; set; }
 
         [Required]
         [StringLength(20)]
@@ -39,7 +39,7 @@ namespace WorkShopGL.API.Models.Request
 
         [StringLength(30)]
         [JsonPropertyName("segundo_apellido")]
-        public string SegundoApellido { get; set; }
+        public string? SegundoApellido { get; set; }
 
         [Required]
         [StringLength(200)]

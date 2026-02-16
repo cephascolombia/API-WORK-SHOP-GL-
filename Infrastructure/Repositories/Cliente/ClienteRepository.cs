@@ -44,9 +44,9 @@ namespace WorkShopGL.Infrastructure.Repositories.Cliente
                      p.AddWithValue("@TIPO_DOCUMENTO", dto.TipoDocumento);
                      p.AddWithValue("@TIPO_PERSONA", dto.TipoPersona);
                      p.AddWithValue("@PRIMER_NOMBRE", dto.PrimerNombre);
-                     p.AddWithValue("@SEGUNDO_NOMBRE", dto.SegundoNombre);
+                     p.AddWithValue("@SEGUNDO_NOMBRE", dto.SegundoNombre ?? string.Empty);
                      p.AddWithValue("@PRIMER_APELLIDO", dto.PrimerApellido);
-                     p.AddWithValue("@SEGUNDO_APELLIDO", dto.SegundoApellido);
+                     p.AddWithValue("@SEGUNDO_APELLIDO", dto.SegundoApellido ?? string.Empty);
                      p.AddWithValue("@DIRECCION", dto.Direccion);
                      p.AddWithValue("@TELEFONO", dto.Telefono);
                      p.AddWithValue("@EMAIL", dto.Email);
@@ -68,9 +68,9 @@ namespace WorkShopGL.Infrastructure.Repositories.Cliente
                       p.AddWithValue("@TIPO_DOCUMENTO", dto.TipoDocumento);
                       p.AddWithValue("@TIPO_PERSONA", dto.TipoPersona);
                       p.AddWithValue("@PRIMER_NOMBRE", dto.PrimerNombre);
-                      p.AddWithValue("@SEGUNDO_NOMBRE", dto.SegundoNombre);
+                      p.AddWithValue("@SEGUNDO_NOMBRE", dto.SegundoNombre ?? string.Empty);
                       p.AddWithValue("@PRIMER_APELLIDO", dto.PrimerApellido);
-                      p.AddWithValue("@SEGUNDO_APELLIDO", dto.SegundoApellido);
+                      p.AddWithValue("@SEGUNDO_APELLIDO", dto.SegundoApellido ?? string.Empty);
                       p.AddWithValue("@DIRECCION", dto.Direccion);
                       p.AddWithValue("@TELEFONO", dto.Telefono);
                       p.AddWithValue("@EMAIL", dto.Email);

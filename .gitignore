@@ -1,7 +1,26 @@
+<<<<<<< HEAD
 # Visual Studio archivos temporales
+=======
+## Visual Studio Temp Files
+>>>>>>> ef35a067eaf9c8470f87d888ac0cb2bf2cd2159f
 .vs/
 [Bb]in/
 [Oo]bj/
 *.user
+<<<<<<< HEAD
 *.suo
 *.shellmnt
+=======
+*.userosscache
+*.sln.docstates
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Environment files
+.env
+appsettings.Development.json
+>>>>>>> ef35a067eaf9c8470f87d888ac0cb2bf2cd2159f

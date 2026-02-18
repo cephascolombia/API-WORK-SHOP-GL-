@@ -15,6 +15,7 @@ using WorkShopGL.Application.Services.Cliente;
 using WorkShopGL.Application.Services.Color;
 using WorkShopGL.Application.Services.Maestro;
 using WorkShopGL.Application.Services.Marca;
+using WorkShopGL.Application.Services.Tecnico;
 using WorkShopGL.Application.Services.Vehiculo;
 using WorkShopGL.Infrastructure.Auth;
 using WorkShopGL.Infrastructure.Database;
@@ -23,6 +24,7 @@ using WorkShopGL.Infrastructure.Repositories.Cliente;
 using WorkShopGL.Infrastructure.Repositories.Color;
 using WorkShopGL.Infrastructure.Repositories.Maestro;
 using WorkShopGL.Infrastructure.Repositories.Marca;
+using WorkShopGL.Infrastructure.Repositories.Tecnicos;
 using WorkShopGL.Infrastructure.Repositories.Utilidades;
 using WorkShopGL.Infrastructure.Repositories.Vehiculo;
 using WorkShopGL.Shared.Context;
@@ -44,6 +46,7 @@ builder.Services.AddValidation();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
+    c.CustomSchemaIds(type => type.ToString());
     c.AddSecurityDefinition("Bearer", new()
     {
         Name = "Authorization",
@@ -97,6 +100,9 @@ builder.Services.AddScoped<IClaseService, ClaseService>();
 
 builder.Services.AddScoped<IMarcaRespository, MarcaRespository>();
 builder.Services.AddScoped<IMarcaService, MarcaService>();
+
+builder.Services.AddScoped<ITecnicoRepository, TecnicoRepository>();
+builder.Services.AddScoped<ITecnicoService, TecnicoService>();
 
 
 builder.Services.AddDbContext<AuthDbContext>(options =>

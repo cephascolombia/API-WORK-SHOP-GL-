@@ -15,6 +15,7 @@ using WorkShopGL.Application.Services.Cliente;
 using WorkShopGL.Application.Services.Color;
 using WorkShopGL.Application.Services.Maestro;
 using WorkShopGL.Application.Services.Marca;
+using WorkShopGL.Application.Services.Prosistema;
 using WorkShopGL.Application.Services.Vehiculo;
 using WorkShopGL.Infrastructure.Auth;
 using WorkShopGL.Infrastructure.Database;
@@ -23,6 +24,7 @@ using WorkShopGL.Infrastructure.Repositories.Cliente;
 using WorkShopGL.Infrastructure.Repositories.Color;
 using WorkShopGL.Infrastructure.Repositories.Maestro;
 using WorkShopGL.Infrastructure.Repositories.Marca;
+using WorkShopGL.Infrastructure.Repositories.Prosistema;
 using WorkShopGL.Infrastructure.Repositories.Utilidades;
 using WorkShopGL.Infrastructure.Repositories.Vehiculo;
 using WorkShopGL.Shared.Context;
@@ -97,6 +99,9 @@ builder.Services.AddScoped<IClaseService, ClaseService>();
 
 builder.Services.AddScoped<IMarcaRespository, MarcaRespository>();
 builder.Services.AddScoped<IMarcaService, MarcaService>();
+
+builder.Services.AddScoped<IProsistemaRepository, ProsistemaRepository>();
+builder.Services.AddScoped<IProsistemaService, ProsistemaService>();
 
 
 builder.Services.AddDbContext<AuthDbContext>(options =>

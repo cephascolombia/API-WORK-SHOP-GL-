@@ -8,8 +8,8 @@ namespace WorkShopGL.Application.Services.Marca
         private readonly IMarcaRespository _marcaRepository;
 
 
-        public MarcaService(IMarcaRespository claseRepository)
-            => _marcaRepository = claseRepository;
+        public MarcaService(IMarcaRespository marcaRepository)
+            => _marcaRepository = marcaRepository;
 
         public async Task<string> Insert(CreateMarcaDTO dto)
                     => await _marcaRepository.Insert(dto);

@@ -53,12 +53,12 @@ namespace WorkShopGL.API.Controllers
         {
             var exists = await _clienteService.GetByNit(createClienteRequest.Nit);
 
-            if (exists is not null) 
+            if (exists is not null)
             {
                 throw new BusinessException("Ya existe un cliente registrado con el NIT proporcionado", 409);
             }
 
-            var cliente = ObjectMapper.Map<CreateClienteRequest,CreateClienteDTO>(createClienteRequest);
+            var cliente = ObjectMapper.Map<CreateClienteRequest, CreateClienteDTO>(createClienteRequest);
 
             var id = await _clienteService.Insert(cliente);
             return ApiResult.Ok(new { id });

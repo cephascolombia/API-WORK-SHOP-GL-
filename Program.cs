@@ -15,8 +15,10 @@ using WorkShopGL.Application.Services.Cliente;
 using WorkShopGL.Application.Services.Color;
 using WorkShopGL.Application.Services.Maestro;
 using WorkShopGL.Application.Services.Marca;
+
 using WorkShopGL.Application.Services.Sistema;
 using WorkShopGL.Application.Services.Revision;
+
 using WorkShopGL.Application.Services.Tecnico;
 using WorkShopGL.Application.Services.Vehiculo;
 using WorkShopGL.Infrastructure.Auth;
@@ -26,8 +28,10 @@ using WorkShopGL.Infrastructure.Repositories.Cliente;
 using WorkShopGL.Infrastructure.Repositories.Color;
 using WorkShopGL.Infrastructure.Repositories.Maestro;
 using WorkShopGL.Infrastructure.Repositories.Marca;
+
 using WorkShopGL.Infrastructure.Repositories.Sistema;
 using WorkShopGL.Infrastructure.Repositories.Revision;
+
 using WorkShopGL.Infrastructure.Repositories.Tecnicos;
 using WorkShopGL.Infrastructure.Repositories.Utilidades;
 using WorkShopGL.Infrastructure.Repositories.Vehiculo;
@@ -105,6 +109,7 @@ builder.Services.AddScoped<IClaseService, ClaseService>();
 builder.Services.AddScoped<IMarcaRespository, MarcaRespository>();
 builder.Services.AddScoped<IMarcaService, MarcaService>();
 
+
 builder.Services.AddScoped<ITecnicoRepository, TecnicoRepository>();
 builder.Services.AddScoped<ITecnicoService, TecnicoService>();
 
@@ -113,6 +118,7 @@ builder.Services.AddScoped<ISistemaService, SistemaService>();
 
 builder.Services.AddScoped<IRevisionRepository, RevisionRepository>();
 builder.Services.AddScoped<IRevisionService, RevisionService>();
+
 
 
 builder.Services.AddDbContext<AuthDbContext>(options =>

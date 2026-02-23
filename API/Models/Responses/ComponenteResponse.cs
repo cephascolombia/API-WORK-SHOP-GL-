@@ -4,9 +4,6 @@ namespace WorkShopGL.API.Models.Responses
 {
     public class ComponenteResponse
     {
-        [JsonPropertyName("delmrk")]
-        public string? Delmrk { get; set; }
-
         [JsonPropertyName("id")]
         public int ID { get; set; }
 
@@ -17,10 +14,10 @@ namespace WorkShopGL.API.Models.Responses
         public string? CodSistema { get; set; }
 
         [JsonPropertyName("nombre_sistema")]
-        public string? nomSistema { get; set; }
+        public string? NomSistema { get; set; }
 
         [JsonPropertyName("nombre_sub_sistema")]
-        public string? nomSubSistema { get; set; }
+        public string? NomSubSistema { get; set; }
 
         [JsonPropertyName("nombre")]
         public string? Nombre { get; set; }

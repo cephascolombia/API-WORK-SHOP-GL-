@@ -33,7 +33,8 @@ namespace WorkShopGL.Infrastructure.Repositories.Sistema
             }, p =>
             {
                 p.AddWithValue("@OPERACION", "S");
-                p.AddWithValue("@BUSQUEDA", string.IsNullOrEmpty(query.Busqueda) ? DBNull.Value : query.Busqueda);
+                p.AddWithValue("@BUSQUEDA", 
+                    string.IsNullOrEmpty(query.Busqueda) ? DBNull.Value : query.Busqueda);
                 p.AddWithValue("@PAGINA", query.Pagina);
                 p.AddWithValue("@REGISTROS_X_PAG", query.RegistrosXPagina);
             });
@@ -50,18 +51,18 @@ namespace WorkShopGL.Infrastructure.Repositories.Sistema
             return result;
         }
 
-        public async Task<IEnumerable<ComponenteResponse>> GetComponentesBySistemaAsync(string codSistema)
+        public async Task<IEnumerable<ComponenteResponse>>
+            GetComponentesBySistemaAsync(string codSistema)
         {
             return await _sqlExecutor.ExecuteReaderListAsync("SP_API_GET_PROSISTEMA", rd =>
             {
                 return new ComponenteResponse
                 {
-                    Delmrk = rd["Delmrk"] != DBNull.Value ? rd["Delmrk"].ToString() : string.Empty,
                     ID = Convert.ToInt32(rd["ID"]),
                     Codigo = rd["Codigo"] != DBNull.Value ? rd["Codigo"].ToString() : string.Empty,
                     CodSistema = rd["CodSistema"] != DBNull.Value ? rd["CodSistema"].ToString() : string.Empty,
-                    nomSistema = rd["nomSistema"] != DBNull.Value ? rd["nomSistema"].ToString() : string.Empty,
-                    nomSubSistema = rd["nomSubSistema"] != DBNull.Value ? rd["nomSubSistema"].ToString() : string.Empty,
+                    NomSistema = rd["nomSistema"] != DBNull.Value ? rd["nomSistema"].ToString() : string.Empty,
+                    NomSubSistema = rd["nomSubSistema"] != DBNull.Value ? rd["nomSubSistema"].ToString() : string.Empty,
                     Nombre = rd["Nombre"] != DBNull.Value ? rd["Nombre"].ToString() : string.Empty,
                     CodSubSistema = rd["CodSubSistema"] != DBNull.Value ? rd["CodSubSistema"].ToString() : string.Empty
                 };
@@ -78,12 +79,11 @@ namespace WorkShopGL.Infrastructure.Repositories.Sistema
             {
                 return new ComponenteResponse
                 {
-                    Delmrk = rd["Delmrk"] != DBNull.Value ? rd["Delmrk"].ToString() : string.Empty,
                     ID = Convert.ToInt32(rd["ID"]),
                     Codigo = rd["Codigo"] != DBNull.Value ? rd["Codigo"].ToString() : string.Empty,
                     CodSistema = rd["CodSistema"] != DBNull.Value ? rd["CodSistema"].ToString() : string.Empty,
-                    nomSistema = rd["nomSistema"] != DBNull.Value ? rd["nomSistema"].ToString() : string.Empty,
-                    nomSubSistema = rd["nomSubSistema"] != DBNull.Value ? rd["nomSubSistema"].ToString() : string.Empty,
+                    NomSistema = rd["nomSistema"] != DBNull.Value ? rd["nomSistema"].ToString() : string.Empty,
+                    NomSubSistema = rd["nomSubSistema"] != DBNull.Value ? rd["nomSubSistema"].ToString() : string.Empty,
                     Nombre = rd["Nombre"] != DBNull.Value ? rd["Nombre"].ToString() : string.Empty,
                     CodSubSistema = rd["CodSubSistema"] != DBNull.Value ? rd["CodSubSistema"].ToString() : string.Empty
                 };

@@ -19,5 +19,6 @@
         public string Codigo_pais { get; set; }         
         public string Nombre_pais { get; set; }         
         public DateTime Fecha_registro { get; set; }    
+        public int TotalRecords { get; set; }
     }
 }

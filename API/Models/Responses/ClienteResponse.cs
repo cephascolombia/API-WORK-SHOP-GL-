@@ -54,5 +54,8 @@ namespace WorkShopGL.API.Models.Responses
 
         [JsonPropertyName("fecha_registro")]
         public DateTime Fecha_registro { get; set; }
+
+        [JsonPropertyName("total_records")]
+        public int TotalRecords { get; set; }
     }
 }

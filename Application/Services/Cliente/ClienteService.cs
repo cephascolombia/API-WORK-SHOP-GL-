@@ -17,6 +17,11 @@ namespace WorkShopGL.Application.Services.Cliente
             return await _clienteRepository.GetAll();
         }
 
+        public async Task<IEnumerable<QueryClienteDTO>?> GetPaged(string? nit, string? nombre, string? codigo, int pageNumber, int pageSize)
+        {
+            return await _clienteRepository.GetPaged(nit, nombre, codigo, pageNumber, pageSize);
+        }
+
         public async Task<QueryClienteDTO?> GetByCodigo(string codigo)
         {
             return await _clienteRepository.GetByCodigo(codigo);

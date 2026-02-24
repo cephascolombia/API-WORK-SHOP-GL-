@@ -5,6 +5,7 @@ namespace WorkShopGL.Infrastructure.Repositories.Cliente
     public interface IClienteRepository
     {
         Task<IEnumerable<QueryClienteDTO>?> GetAll();
+        Task<IEnumerable<QueryClienteDTO>?> GetPaged(string? nit, string? nombre, string? codigo, int pageNumber, int pageSize);
         Task<QueryClienteDTO?> GetByCodigo(string codigo);
         Task<QueryClienteDTO?> GetByNit(string nit);
         Task<string> Insert(CreateClienteDTO dto);

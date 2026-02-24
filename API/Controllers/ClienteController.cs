@@ -29,6 +29,29 @@ namespace WorkShopGL.API.Controllers
             return ApiResult.Ok(response);
         }
 
+        /// <summary>
+        /// Obtiene una lista de clientes de forma paginada con filtros opcionales.
+        /// </summary>
+        /// <param name="nit">NIT del cliente (búsqueda exacta).</param>
+        /// <param name="nombre">Nombre del cliente (búsqueda parcial).</param>
+        /// <param name="codigo">Código del cliente (búsqueda exacta).</param>
+        /// <param name="pageNumber">Número de página (mínimo 1).</param>
+        /// <param name="pageSize">Cantidad de registros por página.</param>
+        /// <returns>Resultado con la lista de clientes y el total de registros encontrados.</returns>
+        [HttpGet("getpaged")]
+        [Authorize]
+        public async Task<ApiResult> GetPaged(
+            [FromQuery] string? nit,
+            [FromQuery] string? nombre,
+            [FromQuery] string? codigo,
+            [FromQuery] int pageNumber = 1,
+            [FromQuery] int pageSize = 10)
+        {
+            var clientes = await _clienteService.GetPaged(nit, nombre, codigo, pageNumber, pageSize);
+            var response = ObjectMapper.MapList<QueryClienteDTO, ClienteResponse>(clientes);
+            return ApiResult.Ok(response);
+        }
+
         [HttpGet("getbynit/{nit}")]
         [Authorize]
         public async Task<ApiResult> GetByNit(string nit)

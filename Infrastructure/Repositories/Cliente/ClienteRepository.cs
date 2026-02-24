@@ -20,6 +20,20 @@ namespace WorkShopGL.Infrastructure.Repositories.Cliente
                rd => rd.MapTo<QueryClienteDTO>());
         }
 
+        public async Task<IEnumerable<QueryClienteDTO>?> GetPaged(string? nit, string? nombre, string? codigo, int pageNumber, int pageSize)
+        {
+            return await _sqlExecutor.ExecuteReaderListAsync("SP_API_GET_PAGE_CLIENTES",
+               rd => rd.MapTo<QueryClienteDTO>(),
+               p =>
+               {
+                   p.AddWithValue("@NIT", (object?)nit ?? DBNull.Value);
+                   p.AddWithValue("@NOMBRE", (object?)nombre ?? DBNull.Value);
+                   p.AddWithValue("@CODIGO", (object?)codigo ?? DBNull.Value);
+                   p.AddWithValue("@PageNumber", pageNumber);
+                   p.AddWithValue("@RowsOfPage", pageSize);
+               });
+        }
+
         public async Task<QueryClienteDTO?> GetByCodigo(string codigo)
         {
             return await _sqlExecutor.ExecuteReaderAsync("SP_API_GET_CLIENTES",

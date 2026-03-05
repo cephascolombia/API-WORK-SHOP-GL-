@@ -21,11 +21,30 @@ namespace WorkShopGL.API.Controllers
 
         [HttpGet("getall")]
         [Authorize]
-        public async Task<ApiResult> GetAll()
+        public async Task<ApiResult> GetAll(
+            [FromQuery] string? placa,
+            [FromQuery] string? cliente,
+            [FromQuery] int pageNumber = 1,
+            [FromQuery] int pageSize = 10)
         {
-            var vehiculos = await _vehiculoService.GetAll();
-            var response = ObjectMapper.MapList<QueryVehiculoDTO, VehiculoResponse>(vehiculos);
-            return ApiResult.Ok(response);
+            var vehiculos = await _vehiculoService.GetPaged(placa, cliente, pageNumber, pageSize);
+            var list = vehiculos?.ToList() ?? new List<QueryVehiculoDTO>();
+
+            var totalRegistros = list.FirstOrDefault()?.TotalRecords ?? 0;
+            var totalPaginas = (int)Math.Ceiling((double)totalRegistros / pageSize);
+
+            var responseItems = ObjectMapper.MapList<QueryVehiculoDTO, VehiculoResponse>(list);
+
+            var pagedResponse = new PagedResponse<VehiculoResponse>
+            {
+                Items = responseItems,
+                TotalRegistros = totalRegistros,
+                TotalPaginas = totalPaginas,
+                PaginaActual = pageNumber,
+                RegistrosXPagina = pageSize
+            };
+
+            return ApiResult.Ok(pagedResponse);
         }
 
         [HttpGet("getbyplaca/{placa}")]

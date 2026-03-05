@@ -7,13 +7,13 @@ namespace WorkShopGL.API.Models.Responses
         [JsonPropertyName("codigo")]
         public string Codigo { get; set; }
 
-        [JsonPropertyName("nit")]
+        [JsonPropertyName("cedula")]
         public string Nit { get; set; }
 
         [JsonPropertyName("tipo_documento")]
         public string Tipo_documento { get; set; }
 
-        [JsonPropertyName("nombre_completo")]
+        [JsonPropertyName("nombre")]
         public string Nombre_completo { get; set; }
 
         [JsonPropertyName("primer_nombre")]
@@ -43,19 +43,16 @@ namespace WorkShopGL.API.Models.Responses
         [JsonPropertyName("codigo_ciudad")]
         public string Codigo_ciudad { get; set; }
 
-        [JsonPropertyName("nombre_ciudad")]
+        [JsonPropertyName("ciudad")]
         public string Nombre_ciudad { get; set; }
 
         [JsonPropertyName("codigo_pais")]
         public string Codigo_pais { get; set; }
 
-        [JsonPropertyName("nombre_pais")]
+        [JsonPropertyName("pais")]
         public string Nombre_pais { get; set; }
 
         [JsonPropertyName("fecha_registro")]
         public DateTime Fecha_registro { get; set; }
-
-        [JsonPropertyName("total_records")]
-        public int TotalRecords { get; set; }
     }
 }

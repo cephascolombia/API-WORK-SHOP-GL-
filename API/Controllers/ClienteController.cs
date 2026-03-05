@@ -48,8 +48,23 @@ namespace WorkShopGL.API.Controllers
             [FromQuery] int pageSize = 10)
         {
             var clientes = await _clienteService.GetPaged(nit, nombre, codigo, pageNumber, pageSize);
-            var response = ObjectMapper.MapList<QueryClienteDTO, ClienteResponse>(clientes);
-            return ApiResult.Ok(response);
+            var list = clientes?.ToList() ?? new List<QueryClienteDTO>();
+            
+            var totalRegistros = list.FirstOrDefault()?.TotalRecords ?? 0;
+            var totalPaginas = (int)Math.Ceiling((double)totalRegistros / pageSize);
+
+            var responseItems = ObjectMapper.MapList<QueryClienteDTO, ClienteResponse>(list);
+
+            var pagedResponse = new PagedResponse<ClienteResponse>
+            {
+                Items = responseItems,
+                TotalRegistros = totalRegistros,
+                TotalPaginas = totalPaginas,
+                PaginaActual = pageNumber,
+                RegistrosXPagina = pageSize
+            };
+
+            return ApiResult.Ok(pagedResponse);
         }
 
         [HttpGet("getbynit/{nit}")]

@@ -9,5 +9,6 @@
         public string Nombre_cliente { get; set; }
         public string Codigo_marca { get; set; }
         public string Nombre_marca { get; set; }
+        public int TotalRecords { get; set; }
     }
 }

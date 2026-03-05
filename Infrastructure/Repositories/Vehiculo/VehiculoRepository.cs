@@ -21,6 +21,19 @@ namespace WorkShopGL.Infrastructure.Repositories.Vehiculo
               p => p.AddWithValue("@OPERACION", "GETALL"));
         }
 
+        public async Task<IEnumerable<QueryVehiculoDTO>?> GetPaged(string? placa, string? cliente, int pageNumber, int pageSize)
+        {
+            return await _sqlExecutor.ExecuteReaderListAsync("SP_API_GET_PAGE_VEHICULOS",
+              rd => rd.MapTo<QueryVehiculoDTO>(),
+              p =>
+              {
+                  p.AddWithValue("@PLACA", (object?)placa ?? DBNull.Value);
+                  p.AddWithValue("@CLIENTE", (object?)cliente ?? DBNull.Value);
+                  p.AddWithValue("@PageNumber", pageNumber);
+                  p.AddWithValue("@RowsOfPage", pageSize);
+              });
+        }
+
         public async Task<QueryVehiculoDTO?> GetByPlaca(string placa)
         {
             return await _sqlExecutor.ExecuteReaderAsync("SP_API_VEHICULOS",
@@ -66,7 +79,7 @@ namespace WorkShopGL.Infrastructure.Repositories.Vehiculo
                      p.AddWithValue("@MODELO", dto.Modelo);
                      p.AddWithValue("@MARCA", dto.Codigo_marca);
                      p.AddWithValue("@COLOR", dto.Codigo_color);
-                     p.AddWithValue("@CARROCERIA", dto.Codigo_carroceria);
+                     p.AddWithValue("@CARROCERIA", string.IsNullOrWhiteSpace(dto.Codigo_carroceria) ? "0" : dto.Codigo_carroceria);
                      p.AddWithValue("@CLASE", dto.Codigo_clase);
                      p.AddWithValue("@CILINDRAJE", dto.Cilindraje);
                  }
@@ -86,7 +99,7 @@ namespace WorkShopGL.Infrastructure.Repositories.Vehiculo
                      p.AddWithValue("@MODELO", dto.Modelo);
                      p.AddWithValue("@MARCA", dto.Codigo_marca);
                      p.AddWithValue("@COLOR", dto.Codigo_color);
-                     p.AddWithValue("@CARROCERIA", dto.Codigo_carroceria);
+                     p.AddWithValue("@CARROCERIA", string.IsNullOrWhiteSpace(dto.Codigo_carroceria) ? "0" : dto.Codigo_carroceria);
                      p.AddWithValue("@CLASE", dto.Codigo_clase);
                      p.AddWithValue("@CILINDRAJE", dto.Cilindraje);
                  }

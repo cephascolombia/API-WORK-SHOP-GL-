@@ -21,6 +21,11 @@ namespace WorkShopGL.Application.Services.Vehiculo
             return await _vehiculoRepository.GetAll();
         }
 
+        public async Task<IEnumerable<QueryVehiculoDTO>?> GetPaged(string? placa, string? cliente, int pageNumber, int pageSize)
+        {
+            return await _vehiculoRepository.GetPaged(placa, cliente, pageNumber, pageSize);
+        }
+
         public async Task<QueryVehiculoDTO?> GetByPlaca(string placa)
         {
             return await _vehiculoRepository.GetByPlaca(placa);
